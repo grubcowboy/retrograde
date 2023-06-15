@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>Planetary Retrograde</title>
 </head>
-
-<body>
-    <h1>Planetary Retrograde Information</h1>
-    <ul>
-        {% for planet, retrograde_status in retrograde_data.items() %}
-        <li>{{planet }}: {{retrograde_status }}</li>
-        {% endfor %}
-    </ul>
+<title>Planetary Retrograde</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}" <body>
+<h1>Planetary Retrograde Information</h1>
+<ul>
+    {% for planet, retrograde_status in retrograde_data.items() %}
+    <li>{{planet }}: {{retrograde_status }}</li>
+    {% endfor %}
+</ul>
 </body>
 
 </html>
