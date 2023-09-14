@@ -4,4 +4,9 @@ head {
 
 body {
     font-family: 'Arial Unicode MS', Arial, sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
 }
